@@ -1,0 +1,172 @@
+body{
+	min-height: 200vh;/*view port 200 siras athata 200 view port*/
+	min-width: 109vh;
+	
+	
+}
+
+div{
+	font-size: 1.6rem;
+	padding: 20px;
+	padding-left: 0;
+	
+
+}
+.parent{
+	position: absolute;
+	left: 0;
+	min-width: 1280px;
+	height: 420px;
+
+}
+
+.nav{
+	position: absolute;
+	background-color: #1a001a;
+	bottom: 600px;
+	top: 0;
+	max-width: 290vh;
+	left: 0;
+	height: 40px;
+	display: flex;
+	position: sticky;
+	bottom: 600px;
+	/*opacity: 0.3;*/
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 0;
+}
+  li {
+	 float: left;
+
+}
+ ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #1a001a;
+}
+li a{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+button{
+	background-color: ;
+}
+
+
+.footer{
+	/*background-color: #000000;*/
+	/*background-image: url('photo-1558611848-73f7eb4001a1.jpg');*/
+	position: relative;
+	top: 530px;	/*height: 370px;*/
+	max-width: 350vh;
+	height: 370px;
+	padding-left: 0;
+	padding-right: 12px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	margin-left: 6px;
+	margin-right: ;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+	
+
+}
+.footer > .fo{
+	background-color: #000000;
+	opacity: 0.9;
+	position: relative;
+	padding: 20px;
+	min-width: 110vh;
+	height: 400px;
+	left: 0;
+    top: 0;
+    margin-left: 2px;
+    padding-left: 70;
+
+	
+}
+.container{
+	/*background-color: #999966;*/
+	padding:1px;
+	display: flex;
+	margin-left:5px;
+
+
+}
+.container > .box{
+	background-color: #ffffff;
+	position: relative;
+	padding: 20px;
+	min-width: 105vh;
+	min-height: 50px;
+	left: 0;
+	font-family: Courier New;
+}
+img{
+	padding-top: 50px;
+	margin-left: 2px;
+}
+
+.sec{
+	background-image: url("pexels-photo-841125.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     /*position: relative;*/
+	padding:20px;
+	justify-content: space-around;
+	display: flex;
+	padding-top: 500px;
+	padding-left: 0;
+	/*opacity: 0.7;*/
+
+}
+
+.sec > .bo{
+	background-color: #d6d6c2;
+	padding: 10px;
+	width: 200px;
+	font-size: 18px;
+	border: 2px solid red;
+    border-radius: 5px;
+	
+}
+#first{
+	text-align: center;
+}
+#second{
+	text-align: center;
+}
+#fourth{
+	padding-top: 0;
+
+}
+#fifth{
+	margin-top: 0;
+}
+
+
+#four{
+	padding-top: 0;
+	padding-left: 30px;
+
+}
+#btn{
+	background-color: black;
+	width: 150px;
+	height: 30px;
+	margin-left: 28px;
+	border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+}
+
